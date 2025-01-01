@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 30px;
+    text-align: left;
+    list-style-type:none;
+}
+header{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(26, 39, 12);
+    color: antiquewhite;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    background-color: gray;
+    overflow: hidden;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    padding:10px 40px ;
+    float: left;
+    color:antiquewhite;
+}
+section{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height:auto;
+    overflow: hidden;
+}
+section a{
+    
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding:10px 40px ;
+    float: left;
+    color:blue;
+    text-align: center;   
+}
+section a:hover{
+    color: blue;
+    background-color: aliceblue;
+}
+
+section h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(38, 33, 39);
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+section h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(228, 134, 247);
+    color: rgb(2, 49, 2);
+    font-family:'Times New Roman', Times, serif;
+}
+
+section p{
+    font-size: 25px;
+    text-align: left;
+    margin: 10px 10px;
+    padding-top: 20px;
+}
+section li{
+    font-size: 25px;
+    list-style-type:decimal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ol li{
+    list-style-type:decimal;
+
+
+}
+ul li{
+    list-style-type: disc;
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+}
+img{
+
+    align-items: center;
+    padding: 10px 10px ;
+    height: 400px;
+    width: 49%;
+}
+footer{
+    overflow: hidden;
+    background-color: grey;
+}
+footer a{
+    display: block;
+    text-decoration: none;
+    padding:1px 10px ;
+    float: left;
+    color:antiquewhite;
+}
+.copyright{
+    float: right;
+    
+}
+.myhover:hover{
+    background-color: antiquewhite;
+    color:black;
+} 
